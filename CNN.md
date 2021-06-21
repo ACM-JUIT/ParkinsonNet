@@ -26,6 +26,11 @@ This decreases the computation of the features of the image a lot.
 
 ![image](https://user-images.githubusercontent.com/75668411/122641344-4adca700-d122-11eb-909a-8fdb82f84bd7.png)
 
+### Softmax
+The softmax, or “soft max,” mathematical function can be thought to be a probabilistic or “softer” version of the argmax function.
+This function is used as the activation function in the output layer of neural network models that predict a multinomial probability distribution.
+That is, softmax is used as the activation function for multi-class classification problems where class membership is required on more than two class labels.
+
 ### Final Computation 
 Convolutional + ReLU + Pooling gives only the feature part but classification of image at final stage using neurons are done by classification algorithms.
 There are many classification algorithms but here in Parkinson Disease we will use the most popular one which is SoftMax activation function.
