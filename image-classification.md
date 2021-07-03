@@ -13,6 +13,8 @@ The aim of pre-processing is an improvement of the image data that suppresses un
 Data Augmentation techniques are used to give better generalisation of the problem to deep learning models by increasing the number of samples in training dataset.
 The type of image data augmentation being used here involves creating transformed versions of images in the training dataset that belongs to the same class as the original image. Transforms include a range of operations from the field of image manipulation, such as shifts, flips, zooms, matching the context of training dataset and understanding of the problem domain. 
 
+![image](https://user-images.githubusercontent.com/72248438/124350662-89d72600-dc13-11eb-81d3-9e6bc948c4ad.png)
+
 ## Algorithms for image classification
 
 Image classification can be done using various methods and algorithms. Different algorithms are efficient for different kind of problems and datasets.
@@ -29,6 +31,8 @@ The most commonly used kernels are:
 ###	Decision Trees
 It is also a supervised machine learning algorithm, which at its core is the tree data structure that uses a couple of if/else statements on the features selected.
 Decision trees are based on a hierarchical rule-based method and permits the acceptance and rejection of class labels at each intermediary stage/level.
+
+![image](https://user-images.githubusercontent.com/72248438/124350679-a5dac780-dc13-11eb-9dce-4ce6f91a78b1.png)
 
 ###	KNN (K nearest neighbours)
 This algorithm simply relies on the distance between feature vectors and classifies unknown data points by finding the most common class among the k-closest examples.
@@ -47,7 +51,10 @@ A CNN layer consists of 3 stages:
 *	Detector stage
 *	Pooling stage
 
+![image](https://user-images.githubusercontent.com/72248438/124350689-b2f7b680-dc13-11eb-9929-3e6d00bc03ce.png)
+
 ## Back Propagation
 Back propagation is a supervised learning algorithm that is used to train neural networks.
 While training the model we initialise some random weights and because of this randomisation the error value is high. In order to minimise this error function, we need to iterate over the model many times and adjust the weights effectively. The method of propagating the network backwards and adjusting the weights in order to minimise error function is called back propagation.
 
+![image](https://user-images.githubusercontent.com/72248438/124350729-01a55080-dc14-11eb-9ab3-2512b4154a2d.png)
