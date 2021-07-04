@@ -28,7 +28,8 @@ This decreases the computation of the features of the image a lot.
  
 Convolutional + ReLU + Pooling gives only the feature part but classification of image at final stage using neurons are done by classification algorithms.
 There are many classification algorithms but here in Parkinson Disease we will use the most popular one which is SoftMax activation function.
-**SoftMax** is a mathematical function that converts a vector of numbers into a vector of probabilities, where the probabilities of each value are proportional to the relative scale of each value in the vector.
+
+SoftMax is a mathematical function that converts a vector of numbers into a vector of probabilities, where the probabilities of each value are proportional to the relative scale of each value in the vector.
 The most common use of the SoftMax function in applied machine learning is in its use as an activation function in a neural network model. Specifically, the network is configured to output N values, one for each class in the classification task, and the SoftMax function is used to normalize the outputs, converting them from weighted sum values into probabilities that sum to one. Each value in the output of the SoftMax function is interpreted as the probability of membership for each class.
 
 ![image](https://user-images.githubusercontent.com/75668411/124376026-936b9700-dcc2-11eb-852a-cf3e2a06fe5c.png)
