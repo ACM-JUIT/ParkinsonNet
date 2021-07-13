@@ -1,4 +1,4 @@
-Data Augmentation in Keras
+# Data Augmentation in Keras
 
 Image data augmentation is a technique that can be used to artificially expand the size of a training dataset by creating modified versions of images in the dataset
 
@@ -13,7 +13,7 @@ Modern deep learning algorithms, such as the convolutional neural network, or CN
 Image data augmentation is typically only applied to the training dataset, and not to the validation or test dataset.
 
 
-Image Augmentation with ImageDataGenerator
+## Image Augmentation with ImageDataGenerator
 
 The Keras deep learning library provides the ability to use data augmentation automatically when training a model.
 
